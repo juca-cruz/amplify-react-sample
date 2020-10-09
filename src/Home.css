@@ -1,0 +1,16 @@
+  .home__table{
+    width: 800px;
+  }
+  
+  .app__input{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      flex: wrap;
+      max-width: 800px;
+      border-radius: 10px;
+  }
+
+  .app__input > input {
+      margin-right: 10px;
+  }

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Home.css';
 
 import Amplify, { API, graphqlOperation } from 'aws-amplify'
 import { createActor} from './graphql/mutations' 
@@ -19,7 +20,7 @@ Amplify.configure(awsExports);
 
 const useStyles = makeStyles({
     table: {
-      minWidth: 500,
+      minWidth: 600,
     },
   });
 
